@@ -22,6 +22,7 @@
 ## 2 Tech - Theory
 ### 02.01 Technical Tradeoffs
 - Qn: Can you please give us a scenario of your recent technical tradeoff
+- choosing b/w build time or initial load performance by creating chunks. we preferred performance
 - Use tradingview custom chart for all chart widgets for customizability and provide more features but it will need significant data from BE. Challenge: not much trade on our own platform for all markets. Only FXF_USDT had data so we had custom data for that market
 - Replace okta sign in widget with our own widget to save bundle size since okta takes 5MB which is 50% of the overall bundle size but we haven't done it yet because we wanted to customize the flow with UX and UX doesn't have b/w for this task
 - Keeping data in localstorage since BE team doesn't have b/w

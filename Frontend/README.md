@@ -9,3 +9,5 @@
 ## 04 Mock Interview - React - Pazzo - Dan
 
 ## 05 Mock Interview - JS
+
+## 06 Mock Interview - Senior React
