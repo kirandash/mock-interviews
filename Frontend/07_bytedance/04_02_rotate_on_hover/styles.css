@@ -1,0 +1,12 @@
+.over {
+  transform: rotate(180deg);
+}
+
+.out {
+  transform: rotate(0deg);
+}
+
+.over,
+.out {
+  transition: 1s ease-in-out;
+}

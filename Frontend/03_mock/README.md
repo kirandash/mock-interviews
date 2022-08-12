@@ -27,6 +27,7 @@
 - Replace okta sign in widget with our own widget to save bundle size since okta takes 5MB which is 50% of the overall bundle size but we haven't done it yet because we wanted to customize the flow with UX and UX doesn't have b/w for this task
 - Keeping data in localstorage since BE team doesn't have b/w
 - Switching b/w kyc providers to be cost effective
+- UX Tradeoff: Show loading icon or not. Not showing it might create a bad experience for user with slower connection or in error scenarios for APIs with reattempts. But we decided to rather focus on the majority of users who will have faster internet and no error scenario.
 
 ### 02.02 Code review process
 - Qn: Can you please walk me through your code review process

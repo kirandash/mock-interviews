@@ -11,3 +11,7 @@
 ## 05 Mock Interview - JS
 
 ## 06 Mock Interview - Senior React
+
+## 07 Mock Interview - ByteDance
+
+## 08 Mock Interview - ByteDance

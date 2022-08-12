@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#root {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#b > div:first-child {
+    position: absolute;
+    right: 0px;
+}
