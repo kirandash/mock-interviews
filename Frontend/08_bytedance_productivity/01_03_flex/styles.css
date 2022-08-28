@@ -2,10 +2,13 @@ body {
     margin: 0;
     padding: 0;
 }
+/* setting the main container's display to flex and then setting the flex-direction to row-reverse */
 #root {
     display: flex;
     flex-direction: row-reverse;
+    /* Set the justify-content to space-between pushes the row elements to their extremes */
     justify-content: space-between;
+    /* align-items to flex-end so that the elements are aligned to the bottom line of the container */
     align-items: flex-end;
 }
 

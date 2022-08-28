@@ -1,4 +1,5 @@
 # Bytedance Frontend Mock Interview
+- https://www.frontendinterviewhandbook.com/companies/bytedance-tiktok-front-end-interview-questions
 
 ## 01 JavaScript
 ### 01.01 Implement Promise.all() [Medium]

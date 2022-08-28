@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hide Text</title>
+        <style>
+            .hide-1 {
+                display: none; /* Doesn't occupy space */
+            }
+            .hide-2 {
+                text-indent: -9999px; /* sends the text off-screen */
+            }
+            .hide-3 {
+                color: transparent;
+            }
+            .hide-4 {
+                visibility: hidden;
+            }
+            .hide-5 {
+                font-size: 0;
+            }
+            .hide-6 {
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Show Text</h1>
+        <h1 class="hide-1">Hide Text</h1>
+        <h1 class="hide-2">Hide Text</h1>
+        <h1 class="hide-3">Hide Text</h1>
+        <h1 class="hide-4">Hide Text</h1>
+        <h1 class="hide-5">Hide Text</h1>
+        <h1 class="hide-6">Hide Text</h1>
+        <h1>Show Text</h1>
+    </body>
+</html>

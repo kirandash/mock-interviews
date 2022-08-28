@@ -1,0 +1,12 @@
+#game-board {
+    display: flex;
+    width: 360px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 0 0 100px;
+    height: 100px;
+    margin: 10px;
+    background: grey;
+}
